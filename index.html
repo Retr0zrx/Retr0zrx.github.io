@@ -9,31 +9,63 @@
                 font-family: Arial, sans-serif;
                 background-color: #f9f9f9;
                 color: #333;
+                margin: 0;
+                padding: 0;
             }
 
             h1 {
                 text-align: center;
                 color: #4CAF50;
+                padding: 20px;
+                margin-top: 0;
+                background-color: #fff;
             }
 
             h2 {
-                color: #555;
+                color: #4CAF50;
+                margin-bottom: 10px;
             }
 
             p {
                 font-size: 16px;
                 line-height: 1.5;
+                margin-bottom: 20px;
             }
 
             img {
                 width: 100%;
-                max-width: 400px;
+                max-width: 600px;
                 display: block;
-                margin: 10px auto;
+                margin: 20px auto;
+                border-radius: 8px;
             }
 
             .section {
                 margin: 20px;
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+
+            .section img {
+                max-width: 100%;
+                height: auto;
+            }
+
+            .fact-list {
+                list-style-type: disc;
+                margin-left: 20px;
+            }
+
+            footer {
+                text-align: center;
+                padding: 10px;
+                background-color: #333;
+                color: #fff;
+                position: fixed;
+                width: 100%;
+                bottom: 0;
             }
         </style>
     </head>
@@ -45,19 +77,40 @@
             <h2>Lions</h2>
             <p>Lions are known as the "Kings of the Jungle." They are big cats that live in Africa and parts of Asia. Lions are social animals and live in groups called prides.</p>
             <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Lion_in_Kruger_National_Park.jpg" alt="Lion">
+            <h3>Interesting Facts About Lions</h3>
+            <ul class="fact-list">
+                <li>Lions are the only cats that live in groups, called prides.</li>
+                <li>Their roars can be heard up to 5 miles away!</li>
+                <li>Lions can run at speeds of up to 50 miles per hour.</li>
+            </ul>
         </div>
 
         <div class="section">
             <h2>Elephants</h2>
             <p>Elephants are the largest land animals. They have big ears, long trunks, and tusks. They live in Africa and Asia and are known for their intelligence and strong family bonds.</p>
             <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/African_Bush_Elephant.jpg" alt="Elephant">
+            <h3>Interesting Facts About Elephants</h3>
+            <ul class="fact-list">
+                <li>Elephants can live up to 60-70 years.</li>
+                <li>They have the largest brains of any land animal.</li>
+                <li>Elephants use their trunks to smell, breathe, and grab things.</li>
+            </ul>
         </div>
 
         <div class="section">
             <h2>Tigers</h2>
             <p>Tigers are powerful predators found in Asia. They are known for their beautiful orange and black striped fur. Tigers are solitary animals and prefer to live alone.</p>
             <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Tiger_in_Ranthambore_National_Park.jpg" alt="Tiger">
+            <h3>Interesting Facts About Tigers</h3>
+            <ul class="fact-list">
+                <li>Tigers are the largest wild cats in the world.</li>
+                <li>Each tiger's stripes are unique, like human fingerprints.</li>
+                <li>Tigers can leap over 30 feet in one bound!</li>
+            </ul>
         </div>
 
+        <footer>
+            <p>&copy; 2023 All About Animals. All rights reserved.</p>
+        </footer>
     </body>
 </html>
